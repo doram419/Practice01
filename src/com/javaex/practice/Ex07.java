@@ -31,6 +31,16 @@ public class Ex07 {
 		int person;
 		//변수 이름은 #를 쓸 수 없다.  
 		int _person;	
+		
+		
+		// warnings 없애기용
+		trueInt = 0;
+		of_workers = 0;
+		countOfLettersInString = 0;
+		firstLevel = 0;
+		person = 0;
+		_person = 0;
+		System.out.println(trueInt + of_workers + countOfLettersInString + firstLevel + person + _person);
 	}
 
 }

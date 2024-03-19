@@ -24,5 +24,9 @@ public class Ex12 {
 		int n = 1000;
 		//byte는 1byte이기 때문에 1000을 대입 할 수 없다.
 		//정수 1000을 넣으려면 2^5이상을 지원해주는 정수형에 넣어줘야 한다.
+		
+		//warnings 없애기용
+		x = 0;
+		System.out.println(x + y + grade + salary + n);
 	}
 }
